@@ -8,6 +8,8 @@ def line(deli)
     deli.each_with_index do |person, index|
       str += "#{index + 1}. #{person}"
     end
+
+    return str
   end
 end
 
