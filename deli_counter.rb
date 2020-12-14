@@ -9,6 +9,6 @@ def line(deli)
       str += " #{index + 1}. #{person}"
     end
 
-    return str
+    puts str
   end
 end
