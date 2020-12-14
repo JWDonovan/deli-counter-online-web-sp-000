@@ -8,6 +8,6 @@ def line(deli)
     end
 
     deli.unshift('The line is currently:')
-    puts deli
+    puts deli.join()
   end
 end
