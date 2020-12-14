@@ -17,3 +17,10 @@ def take_a_number(line, person)
   line << person
   puts "Welcome, #{person}. You are number #{line.count} in line."
 end
+
+def now_serving(line)
+  if line.count > 0
+    puts "Currently serving #{line.last}"
+    line.pop()
+  end
+end
