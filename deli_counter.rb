@@ -21,6 +21,6 @@ end
 def now_serving(line)
   if line.count > 0
     puts "Currently serving #{line.last}"
-    line.pop()
+    line.unshift()
   end
 end
