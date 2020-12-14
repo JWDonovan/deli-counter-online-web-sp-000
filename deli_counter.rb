@@ -4,10 +4,10 @@ def line(deli)
     puts 'The line is currently empty.'
   else
     deli.collect do |person|
-
+      " 1. #{person }"
     end
 
-    deli.unshift('The line is currently: ')
+    deli.unshift('The line is currently:')
     puts deli
   end
 end
