@@ -12,3 +12,8 @@ def line(deli)
     puts str
   end
 end
+
+def take_a_number(line, person)
+  line << person
+  puts "Welcome, #{person}. You are number #{line.count} in line."
+end
