@@ -20,7 +20,7 @@ end
 
 def now_serving(line)
   if line.count > 0
-    puts "Currently serving #{line.last}"
+    puts "Currently serving #{line.first}"
     line.unshift()
   end
 end
