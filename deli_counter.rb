@@ -12,17 +12,3 @@ def line(deli)
     return str
   end
 end
-
-} else {
-    let string = 'The line is currently: ';
-
-    for (let i = 0; i < line.length; i++) {
-      string += `${i + 1}. ${line[i]}`;
-
-      if (i !== line.length - 1) {
-        string += ', ';
-      }
-    }
-
-    return string;
-  }
